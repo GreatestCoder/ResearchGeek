@@ -1,5 +1,7 @@
 # ResearchGeek 🤖
 
+## 🚀 Live Demo: https://research-geek.vercel.app/
+
 An AI-powered research assistant that automates technical research by
 combining planning, academic paper discovery, code repository analysis,
 and report generation into a single workflow.
@@ -7,13 +9,6 @@ and report generation into a single workflow.
 > Built with **FastAPI**, **OpenAI Agents SDK**, **Next.js 15**,
 > **TypeScript**, and **MCP Servers**.
 
-------------------------------------------------------------------------
-
-## 🚀 Live Demo
-
-**Frontend:** *Add your Vercel URL here*
-
-**Backend API:** *Add your Railway URL here*
 
 ------------------------------------------------------------------------
 
