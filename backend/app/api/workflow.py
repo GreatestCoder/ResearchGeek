@@ -16,7 +16,7 @@ router = APIRouter(prefix="/workflow", tags=["Workflow"])
 class WorkflowRequest(BaseModel):
     goal: str
 
-@router.post("/")
+@router.post("")
 async def run_workflow(request: WorkflowRequest):
     async with deepwiki_server, arxiv_server, github_server:
         planner = planner_agent.create_agent()
